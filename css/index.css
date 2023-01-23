@@ -65,13 +65,6 @@ h1 {
     border-color: azure;
 }
 
-div.ecran {
-    overflow: hidden;
-    background-color: aqua;
-    width: 1800px;
-    margin: auto;
-}
-
 div.block-right {
     margin-left: 70%;
     width: 30em;
