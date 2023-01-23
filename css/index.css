@@ -14,6 +14,10 @@ div.head {
     padding: 2em;
 }
 
+#saut {
+    padding: 2px;
+}
+
 #div_info {
     margin: auto;
     width: 60% ;
@@ -42,6 +46,17 @@ div.head {
     border-color:#F08B32;
 }
 
+#article2 {
+    color: azure;
+}
+
+#xtal {
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: azure;
+}
+
 div.ecran {
     overflow: hidden;
     background-color: aqua;
@@ -49,10 +64,22 @@ div.ecran {
     margin: auto;
 }
 
-div.block {
+div.block-right {
     margin-left: 70%;
     width: 30em;
     /* background-color: blueviolet; */
+}
+
+div.block-left {
+    margin-left: 10%;
+    width: 30em;
+    /* background-color: blueviolet; */
+}
+
+img.img_left {
+    margin-left: 70%;
+    margin-top: -130%;
+    width: 30%;
 }
 
 div.texte25 {
@@ -62,8 +89,12 @@ div.texte25 {
 }
 
 @media screen and (max-width:900px) {
-    div.block {
+    div.block-right {
         margin-left: auto;
+        width: 30em;
+    }
+    div.block-left {
+        margin-right: auto;
         width: 30em;
     }
     div.ecran {
