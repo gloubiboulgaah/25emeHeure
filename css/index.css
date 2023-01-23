@@ -1,0 +1,73 @@
+html.index {
+    background-color: black;
+}
+
+div.head {
+    margin: auto;
+    width: 20em;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+#space {
+    padding: 2em;
+}
+
+#div_info {
+    margin: auto;
+    width: 60% ;
+}
+
+#info {
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+
+#head_titre {
+    font-style: italic;
+    text-align: center;
+    color: red;
+}
+
+#article1 {
+    color:  #F08B32;
+}
+
+#erik {
+    margin-left: auto;
+    border: 1px;
+    border-style: solid;
+    border-color:#F08B32;
+}
+
+div.ecran {
+    overflow: hidden;
+    background-color: aqua;
+    width: 1800px;
+    margin: auto;
+}
+
+div.block {
+    margin-left: 70%;
+    width: 30em;
+    /* background-color: blueviolet; */
+}
+
+div.texte25 {
+    width:20em;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+@media screen and (max-width:900px) {
+    div.block {
+        margin-left: auto;
+        width: 30em;
+    }
+    div.ecran {
+        width: 800px;
+        margin: auto;
+    }
+}
