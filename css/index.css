@@ -47,6 +47,14 @@ h1 {
     color:  #F08B32;
 }
 
+#article2 {
+    color: azure;
+}
+
+#article3 {
+    color: #83F1A8;
+}
+
 #erik {
     margin-left: auto;
     border: 1px;
@@ -54,15 +62,18 @@ h1 {
     border-color:#F08B32;
 }
 
-#article2 {
-    color: azure;
-}
-
 #xtal {
     margin-right: auto;
     border: 1px;
     border-style: solid;
     border-color: azure;
+}
+
+#where_is_my_mind {
+    margin:auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #83F1A8;
 }
 
 div.block-right {
@@ -77,7 +88,24 @@ div.block-left {
     /* background-color: blueviolet; */
 }
 
+div.block-center {
+    margin: auto;
+    width: 30em;
+}
+
+img.img_right {
+    margin-left: 5%;
+    margin-top: -140%;
+    width: 30%;
+}
+
 img.img_left {
+    margin-left: 70%;
+    margin-top: -130%;
+    width: 30%;
+}
+
+img.img_center {
     margin-left: 70%;
     margin-top: -130%;
     width: 30%;
@@ -96,6 +124,10 @@ div.texte25 {
     }
     div.block-left {
         margin-right: auto;
+        width: 30em;
+    }
+    div.block-center {
+        margin: auto;
         width: 30em;
     }
     div.ecran {
