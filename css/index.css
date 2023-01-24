@@ -77,13 +77,15 @@ h1 {
 }
 
 div.block-right {
-    margin-left: 70%;
+    margin: auto;    
+    margin-right: 70px;
     width: 30em;
     /* background-color: blueviolet; */
 }
 
 div.block-left {
-    margin-left: 10%;
+    margin: auto;
+    margin-left: 10px;
     width: 30em;
     /* background-color: blueviolet; */
 }
@@ -120,13 +122,15 @@ div.texte25 {
 @media screen and (min-width:1880px) {
 
     div.block-right {
-        margin-left: 70%;
+        margin: auto;
+        margin-right: 70px;
         width: 30em;
         /* background-color: blueviolet; */
     }
     
     div.block-left {
-        margin-left: 10%;
+        margin: auto;
+        margin-left: 80px;
         width: 30em;
         /* background-color: blueviolet; */
     }
