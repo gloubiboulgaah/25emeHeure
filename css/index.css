@@ -95,20 +95,20 @@ div.block-center {
 
 img.img_right {
     margin-left: 5%;
-    margin-top: -140%;
-    width: 30%;
+    margin-top: -145%;
+    width: 150px;
 }
 
 img.img_left {
     margin-left: 70%;
     margin-top: -130%;
-    width: 30%;
+    width: 150px;
 }
 
 img.img_center {
     margin-left: 70%;
-    margin-top: -130%;
-    width: 30%;
+    margin-top: -135%;
+    width: 150px;
 }
 
 div.texte25 {
@@ -144,7 +144,7 @@ div.texte25 {
     
     img.img_center {
         margin-left: 60%;
-        margin-top: -545px;
+        margin-top: -505px;
         width: 20%;
     }
     
