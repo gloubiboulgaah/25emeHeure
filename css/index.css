@@ -43,99 +43,40 @@ h1 {
     color: red;
 }
 
-#article1 {
-    color:  #F08B32;
-}
+#article1 {color:  #F08B32;}
 
-#article2 {
-    color: azure;
-}
+#article2 {color: azure;}
 
-#article3 {
-    color: #83F1A8;
-}
+#article3 {color: #83F1A8;}
 
-#erik {
-    margin-left: auto;
-    border: 1px;
-    border-style: solid;
-    border-color:#F08B32;
-}
+#erik {border-color:#F08B32;}
 
-#xtal {
-    margin-right: auto;
-    border: 1px;
-    border-style: solid;
-    border-color: azure;
-}
+#xtal {border-color: azure;}
 
-#where_is_my_mind {
-    margin:auto;
-    border: 1px;
-    border-style: solid;
-    border-color: #83F1A8;
-}
+#where_is_my_mind {border-color: #83F1A8;}
 
-div.block-right {
-    margin: auto;    
-    margin-right: 70px;
-    width: 30em;
-    /* background-color: blueviolet; */
-}
-
-div.block-left {
+div.block {
     margin: auto;
-    margin-left: 10px;
-    width: 30em;
-    /* background-color: blueviolet; */
+    background-color: blue;
 }
 
-div.block-center {
-    margin: auto;
-    width: 30em;
-}
 
-img.img_right {
-    margin-left: 5%;
-    margin-top: -145%;
-    width: 150px;
-}
-
-img.img_left {
-    margin-left: 70%;
-    margin-top: -130%;
-    width: 150px;
-}
-
-img.img_center {
-    margin-left: 70%;
-    margin-top: -135%;
-    width: 150px;
-}
-
-div.texte25 {
-    width:20em;
-    padding-left:10px;
-    padding-right:10px;
-}
-
-@media screen and (min-width:1880px) {
-
-    div.block-right {
-        margin: auto;
+@media screen and (min-width:1000px) {
+    
+    #block-right {
+        margin: auto;    
         margin-right: 70px;
         width: 30em;
-        /* background-color: blueviolet; */
     }
     
-    div.block-left {
+    #block-left {
         margin: auto;
-        margin-left: 80px;
+        margin-left: 10px;
         width: 30em;
         /* background-color: blueviolet; */
     }
     
-    div.block-center {
+    #block-center {
         margin: auto;
         width: 30em;
     }
@@ -158,48 +99,98 @@ div.texte25 {
         width: 150px;
     }
 
-}
-
-@media screen and (max-width:1080px) {
-    div.block-right {
-        margin: auto;
-        margin-right: 10px;
-        width: 30em;
-    }
-    div.block-left {
-        margin: auto;
-        margin-left: 10px;
-        width: 30em;
-    }
-    div.block-center {
-        margin: auto;
-        width: 30em;
-    }
-    img.img_right {
-        margin-left: 27%;
-        margin-top: -539px;
-        width: 100px;
-    }
-    
-    img.img_left {
-        margin-left: 54%;
-        margin-top: -540px;
-        width: 100px;
-    }
-    
-    img.img_center {
-        margin-left: 60%;
-        margin-top: -500px;
-        width: 100px;
-    }
-    
     div.texte25 {
-        font-size: 80%;
         width:20em;
         padding-left:10px;
         padding-right:10px;
+        margin: auto;
+        border: 1px;
+        border-style: solid;
+    }
+        
+}
+
+@media screen and (max-width:1000px) {
+
+    div.texte25 {
+        font-size: 80%;
+        width:100%;
+        padding-left:10px;
+        padding-right:10px;
+        border: 1px;
+        border-style: solid;
+        margin-top: auto;
     }
 
+    div.block_img {
+        margin: auto;
+        width: 60%;
+        height: 700px;
+    }
+
+    div.head {
+        background-color: #83F1A8;
+    }
+
+    div.block {
+        width: 90%;
+    }
+
+    #block-right {
+        margin: auto;
+        margin-right: 10px;
+        /* margin-right: 10px; */
+    }
+
+    #block_img_right {
+        margin-right:30px;
+    }
+
+    #block_img_left {
+        margin-left: 30px;
+    }
+
+
+    #block-left {
+        margin: auto;
+        margin-left: 10px;
+    }
+    
+    #block-center {
+        margin: auto;
+    }
+
+    #erik {
+        margin-left: auto;
+    }
+
+    #xtal {
+        margin-right: auto;
+    }
+
+    #where_is_my_mind {
+        margin: auto;
+    }
+
+    img.img_right {
+        /* margin-left: auto; */
+        margin-bottom: -2%;
+        margin-left: -30px;
+        width: 90px;
+    }
+    
+    img.img_left {
+        margin-bottom: -2%;
+        margin-left: -30px;
+        width: 90px;
+    }
+    
+    img.img_center {
+        margin-bottom: -2%;
+        margin-left: -30px;
+        width: 90px;
+    }
+    
 }
 
 /* bug chelou à patch */
