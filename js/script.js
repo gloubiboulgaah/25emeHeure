@@ -8,7 +8,7 @@ function erik() {
 
 function xtal() {
     music.pause();
-    music.src = "music/xtal.mp3"
+    music.src = "music/Xtal.mp3"
     music.play();
 }
 
